@@ -1,0 +1,381 @@
+Traffic Light: Green
+Traffic Jam Alert!
+Weather Condition Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Yellow
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Red
+Smoking and Drinking Detected!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: True
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: True
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Jam Alert!
+Weather Condition Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Yellow
+Speed Break Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Emergency Vehicle Approaching!
+Weather Condition Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: True
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: True
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Light: Red
+Speed Break Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Jam Alert!
+Emergency Vehicle Approaching!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: True
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: True
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Jam Alert!
+Traffic Rule Violation Detected!
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Yellow
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Red
+Traffic Jam Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Yellow
+Traffic Light: Red
+Weather Condition Alert!
+Speed Break Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Emergency Vehicle Approaching!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: True
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: True
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Weather Condition Alert!
+Traffic Jam Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Emergency Vehicle Approaching!
+Traffic Rule Violation Detected!
+Traffic Jam Alert!
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: True
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Yellow
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: True
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: True
+Traffic Light: Red
+Speed Break Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Traffic Light: Red
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Red
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Green
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Green
+Emergency Vehicle Present: False
+Weather Condition: Clear
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Yellow
+Weather Condition Alert!
+Traffic Rules:
+Speed Limit: 60
+Traffic Light: Yellow
+Emergency Vehicle Present: False
+Weather Condition: Rainy
+Smoking and Drinking Detected: False
+Traffic Jam Detected: False
+Traffic Light: Red
+
+=== Session Ended. Please Run the code again ===
