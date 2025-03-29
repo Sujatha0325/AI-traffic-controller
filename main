@@ -1,0 +1,144 @@
+import time
+import random
+import threading
+
+# Define constants for traffic signals and alerts
+TRAFFIC_LIGHT_GREEN = "Green"
+TRAFFIC_LIGHT_RED = "Red"
+TRAFFIC_LIGHT_YELLOW = "Yellow"
+EMERGENCY_VEHICLE_PRIORITY = "Emergency Vehicle Approaching!"
+TRAFFIC_JAM_ALERT = "Traffic Jam Alert!"
+SPEED_BREAK_ALERT = "Speed Break Alert!"
+WEATHER_CONDITION_ALERT = "Weather Condition Alert!"
+SMOKING_AND_DRINKING_ALERT = "Smoking and Drinking Detected!"
+TRAFFIC_RULE_VIOLATION_ALERT = "Traffic Rule Violation Detected!"
+
+# Define a dictionary to store traffic rules and conditions
+TRAFFIC_RULES = {
+    "speed_limit": 60,
+    "traffic_light": TRAFFIC_LIGHT_GREEN,
+    "emergency_vehicle": False,
+    "weather_condition": "Clear",
+    "smoking_and_drinking": False,
+    "traffic_jam": False
+}
+
+# Function to simulate traffic light changes
+def simulate_traffic_light():
+    while True:
+        try:
+            TRAFFIC_RULES["traffic_light"] = TRAFFIC_LIGHT_GREEN
+            print("Traffic Light: Green")
+            time.sleep(5)  # Green light duration
+            TRAFFIC_RULES["traffic_light"] = TRAFFIC_LIGHT_YELLOW
+            print("Traffic Light: Yellow")
+            time.sleep(2)  # Yellow light duration
+            TRAFFIC_RULES["traffic_light"] = TRAFFIC_LIGHT_RED
+            print("Traffic Light: Red")
+            time.sleep(5)  # Red light duration
+        except Exception as e:
+            print(f"Error in simulate_traffic_light: {e}")
+
+# Function to detect traffic jams
+def detect_traffic_jam():
+    while True:
+        try:
+            traffic_jam_chance = random.randint(1, 100)
+            TRAFFIC_RULES["traffic_jam"] = traffic_jam_chance < 20
+            if TRAFFIC_RULES["traffic_jam"]:
+                print(TRAFFIC_JAM_ALERT)
+            time.sleep(10)  # Check every 10 seconds
+        except Exception as e:
+            print(f"Error in detect_traffic_jam: {e}")
+
+# Function to detect emergency vehicles
+def detect_emergency_vehicle():
+    while True:
+        try:
+            emergency_vehicle_chance = random.randint(1, 100)
+            TRAFFIC_RULES["emergency_vehicle"] = emergency_vehicle_chance < 10
+            if TRAFFIC_RULES["emergency_vehicle"]:
+                print(EMERGENCY_VEHICLE_PRIORITY)
+            time.sleep(10)  # Check every 10 seconds
+        except Exception as e:
+            print(f"Error in detect_emergency_vehicle: {e}")
+
+# Function to detect weather conditions
+def detect_weather_condition():
+    while True:
+        try:
+            weather_condition_chance = random.randint(1, 100)
+            if weather_condition_chance < 30:
+                TRAFFIC_RULES["weather_condition"] = "Rainy"
+                print(WEATHER_CONDITION_ALERT)
+            else:
+                TRAFFIC_RULES["weather_condition"] = "Clear"
+            time.sleep(10)  # Check every 10 seconds
+        except Exception as e:
+            print(f"Error in detect_weather_condition: {e}")
+
+# Function to detect speed breaks
+def detect_speed_break():
+    while True:
+        try:
+            speed_break_chance = random.randint(1, 100)
+            if speed_break_chance < 20:
+                print(SPEED_BREAK_ALERT)
+            time.sleep(10)  # Check every 10 seconds
+        except Exception as e:
+            print(f"Error in detect_speed_break: {e}")
+
+# Function to detect smoking and drinking
+def detect_smoking_and_drinking():
+    while True:
+        try:
+            smoking_and_drinking_chance = random.randint(1, 100)
+            TRAFFIC_RULES["smoking_and_drinking"] = smoking_and_drinking_chance < 10
+            if TRAFFIC_RULES["smoking_and_drinking"]:
+                print(SMOKING_AND_DRINKING_ALERT)
+            time.sleep(10)  # Check every 10 seconds
+        except Exception as e:
+            print(f"Error in detect_smoking_and_drinking: {e}")
+
+# Function to detect traffic rule violations
+def detect_traffic_rule_violation():
+    while True:
+        try:
+            traffic_rule_violation_chance = random.randint(1, 100)
+            if traffic_rule_violation_chance < 20:
+                print(TRAFFIC_RULE_VIOLATION_ALERT)
+            time.sleep(10)  # Check every 10 seconds
+        except Exception as e:
+            print(f" Error in detect_traffic_rule_violation: {e}")
+
+# Create threads for each function
+traffic_light_thread = threading.Thread(target=simulate_traffic_light)
+traffic_jam_thread = threading.Thread(target=detect_traffic_jam)
+emergency_vehicle_thread = threading.Thread(target=detect_emergency_vehicle)
+weather_condition_thread = threading.Thread(target=detect_weather_condition)
+speed_break_thread = threading.Thread(target=detect_speed_break)
+smoking_and_drinking_thread = threading.Thread(target=detect_smoking_and_drinking)
+traffic_rule_violation_thread = threading.Thread(target=detect_traffic_rule_violation)
+
+# Start threads
+traffic_light_thread.start()
+traffic_jam_thread.start()
+emergency_vehicle_thread.start()
+weather_condition_thread.start()
+speed_break_thread.start()
+smoking_and_drinking_thread.start()
+traffic_rule_violation_thread.start()
+
+# Main loop to display traffic rules and conditions
+try:
+    while True:
+        print("Traffic Rules:")
+        print("Speed Limit:", TRAFFIC_RULES["speed_limit"])
+        print("Traffic Light:", TRAFFIC_RULES["traffic_light"])
+        print("Emergency Vehicle Present:", TRAFFIC_RULES["emergency_vehicle"])
+        print("Weather Condition:", TRAFFIC_RULES["weather_condition"])
+        print("Smoking and Drinking Detected:", TRAFFIC_RULES["smoking_and_drinking"])
+        print("Traffic Jam Detected:", TRAFFIC_RULES["traffic_jam"])
+        time.sleep(5)  # Adjust the sleep time as needed for real-time monitoring
+except KeyboardInterrupt:
+    print("Traffic control system stopped.")
